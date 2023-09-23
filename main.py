@@ -13,7 +13,7 @@ st.write('wigets')
 latest_iteration = st.empty()
 bar = st.progress(0)
 
-for i in range(100):
+for i in range(10):
     latest_iteration.text(f'Iteratuon {i+1}')
     time.sleep(1)
     bar.progress(i + 1)
